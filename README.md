@@ -1,13 +1,14 @@
 # storybook-vscode-helper README
 
+Credits: This extension is an extension and update of riccardo-forina's brilliant extension ([riccardo-forina/storybook-vscode-helper](https://github.com/riccardo-forina/storybook-vscode-helper))
+
 A Visual Studio Code helper to create Storybook stories from your components real quick.
 
 ## Features
 
-
 ### `Create a Storybook story` command
 
-Open the tsx or jsx file that contains the component for which you want to create a story, then from the command palette run "Create a Storybook story". 
+Open the tsx or jsx file that contains the component for which you want to create a story, then from the command palette run "Create a Storybook story".
 
 A new _unsaved_ file will be created with the basics of a Storybook story in the Component Story Format (CSF) filled out for you. Move between the placeholders with TAB, customize the names as you want and you are done.
 
@@ -19,7 +20,7 @@ If your component is written with Typescript, the extension will try to understa
 
 ### `story` snippet
 
-In alternative, you can create a Storybook file in the common format `{Component Name}.stories.jsx|tsx`, type `story` and hit tab to expand the snippet. You will get a basic story in the Component Story Format (CSF) filled out for you. 
+In alternative, you can create a Storybook file in the common format `{Component Name}.stories.jsx|tsx`, type `story` and hit tab to expand the snippet. You will get a basic story in the Component Story Format (CSF) filled out for you.
 
 ## Roadmap
 
@@ -37,6 +38,7 @@ None yet!
 ### 1.0.0
 
 Initial release of storybook-vscode-helper
+
 ### 1.1.0
 
 Compile the extension with `esbuild` to remove the dependency with Typescript.
